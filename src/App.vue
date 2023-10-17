@@ -65,7 +65,7 @@ export default {
   'Accept': '*/*'
 },
         method:'get',
-        url:'/api?search='+a
+        url:'/vue/api?search='+a
         
       }).then((res)=>{
         this.responseTitle = res.data;
