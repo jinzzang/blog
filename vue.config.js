@@ -2,11 +2,11 @@ const { defineConfig } = require('@vue/cli-service')
 module.exports = defineConfig({
   transpileDependencies: true
 })
-/*
+
 module.exports = {
   devServer: {
       proxy: {
-          '/api': {
+          '/vue/api': {
               target: 'http://localhost:20000',
               changeOrigin: true,
               pathRewrite: {
@@ -15,5 +15,4 @@ module.exports = {
           }
       }
   }
-}
-*/
+} //빌드할때 주석처리하기
