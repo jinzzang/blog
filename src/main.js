@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import router from './router'
 import axios from "axios";
 
-axios.defaults.baseURL = "http://localhost:20010"; //자기주소 빌드할떄 주석처리하기
+axios.defaults.baseURL = "http://192.168.0.99:10060"; //http 요청할 주소
 const app = createApp(App);
 app.config.globalProperties.axios = axios;
 

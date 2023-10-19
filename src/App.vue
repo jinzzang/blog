@@ -52,7 +52,8 @@ export default {
   'Accept': '*/*'
 },
         method:'get',
-        url:'/vue/api?search='+a
+        url:'/vue/api?search='+a,
+        timeout:5000
         
       }).then((res)=>{
         this.responseTitle = res.data;
